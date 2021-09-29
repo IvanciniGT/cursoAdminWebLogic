@@ -1,0 +1,15 @@
+version: "3.0"
+
+services:
+    
+    mariadb:
+        image: mariadb    # Esto es un comentario
+        container_name: miMariaDB
+        ports:
+            - 3307:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: miTestDB
+            MYSQL_USER: usuario
+            MYSQL_PASSWORD: password
+# docker-compose up -d

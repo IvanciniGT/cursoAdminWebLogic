@@ -1,0 +1,17 @@
+
+version: "3.0"
+
+services:
+    
+    weblogic:
+        image: store/oracle/weblogic:12.2.1.4-dev-200117    # Esto es un comentario
+        container_name: miweblogic
+        ports:
+            - 7001:7001
+            - 9002:9002
+        volumes:
+            - /home/ubuntu/environment/curso/instalaciones/weblogic:/u01/oracle/properties
+        environment:
+            DOMAIN_NAME: base_domain
+
+# docker-compose up -d
