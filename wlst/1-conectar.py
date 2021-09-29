@@ -31,10 +31,6 @@ def superconnect():
     servidor        = entrada_dato_obligatorio("IP del servidor de WL: ")
     puerto          = entrada_dato_obligatorio("Puerto del servidor de WL: ")
     
-    # Solicitar por consola al usuario: contraseña
-    # Solicitar por consola al usuario: protocolo
-    # Solicitar por consola al usuario: servidor
-    # Solicitar por consola al usuario: puerto
     # Después hace la conexión
     print()
     print("Me voy a conectar con el usuario: "+ nombre_usuario)
