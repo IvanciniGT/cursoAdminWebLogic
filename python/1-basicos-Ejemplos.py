@@ -27,3 +27,4 @@ def factorial(numero):
         return numero * factorial(numero - 1)
     
 print(factorial(5))
+print(factorial(6))

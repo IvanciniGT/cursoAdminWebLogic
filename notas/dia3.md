@@ -70,4 +70,52 @@ Software:
     Demonios
     Servicios
     Aplciaciones
-    Scripts      <<<<<<<
+    Scripts      <<<<<<
+    
+    
+    
+Puerto de administración de WL
+    En que servidor de WL está instalado la consola de administración?
+        AdminServer:7001   http
+        AdminServer:7002   https
+    
+    PUERTO DE ADMINISTRACION: 9002      <<<<<<<<
+    Ese puerto se abría donde ? En todos los servidores del dominio y 
+    desde ahí se reenvían las peticiones al AdminServer
+
+
+/base_domain/
+
+serverConfig/
+
+
+pwd()
+ls()
+cd(ruta)
+
+dr--
+^      Tipo: directorio | propiedad
+ Read
+  Write
+   Execution
+
+
+
+edit()
+startEdit()
+
+
+Cambios
+
+save()
+activate()
+
+cd("/")
+cmo.getServers()[0].getListenPort()
+
+for servidor in cmo.getServers():
+    print(servidor.getName())
+    
+
+for color in colores:
+    print(color)
