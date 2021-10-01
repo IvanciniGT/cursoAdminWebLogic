@@ -119,3 +119,25 @@ for servidor in cmo.getServers():
 
 for color in colores:
     print(color)
+    
+    
+    
+serverConfig            < Configuracion del servidor al que conecté (connect)
+serverRuntime           < Estado de ejecución del servidor al que conecté (connect)
+
+Solo invocables cuando estoy conectado al ADMINSERVER
+VVVVVVVVVVVVV
+domainConfig            < Configuracion de cualquier servidor del dominio
+domainRuntime           < Estado de ejecucion de cualquier servidor del dominio
+En el adminserver, los arboles Server y Domain son equivalentes. Da igual entrar en uno o en otro
+
+-----------------
+Script:
+Mire el número máximo de ejecutores en un servidor CONCRETO     <  Config
+El número actual de ejecutores                                  <  Runtime
+
+
+conectados al AdminServer
+serverRuntime() > Admin
+domainRuntime()/ServerRuntimes/AdminServer
+                              /Servidor1

@@ -8,9 +8,12 @@ services:
         container_name: miweblogic
         ports:
             - 7001:7001
+            - 7011:7011
+            - 7021:7021
             - 9002:9002
         volumes:
             - /home/ubuntu/environment/curso/instalaciones/weblogic:/u01/oracle/properties
+            - /home/ubuntu/environment/dominio:/u01/oracle/user_projects
         environment:
             DOMAIN_NAME: base_domain
 
